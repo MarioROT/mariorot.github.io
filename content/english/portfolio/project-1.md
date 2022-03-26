@@ -2,7 +2,7 @@
 title: "Chest X-ray Diseases Detector"
 date: 2022-03-23T12:00:00+06:00
 image: "images/portfolio/P1/FasterRCNN2.png"
-categories: ["Artificial Intelligence","Machine Learning"]
+categories: ["Artificial Intelligence","Machine Learning", "Computer Vision"]
 description: "This is meta description."
 draft: false
 project_info:

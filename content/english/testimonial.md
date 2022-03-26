@@ -1,5 +1,5 @@
 ---
-title : "TESTIMONIALS"
+title : "Collaborators"
 testimonial_slider:
 # slider item loop
 - name : "Ruben Martinez"
@@ -8,8 +8,8 @@ testimonial_slider:
   content : "No yet available."        
 
 # slider item loop
-- name : "Natalia Sanchez"
-  image : "images/clients/Naty.jpg"
+- name : "Ruben Martinez"
+  image : "images/clients/Ruben.jpg"
   designation : "Student"
   content : "No yet available."
 
