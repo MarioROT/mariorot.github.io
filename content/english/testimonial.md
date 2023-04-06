@@ -5,7 +5,7 @@ testimonial_slider:
 - name : "Ruben Martinez"
   image : "images/clients/Ruben.jpg"
   designation : "Student"
-  content : "No yet available."        
+  content : "Great collaborator."        
 
 # slider item loop
 - name : "Ruben Martinez"
