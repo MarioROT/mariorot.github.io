@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://mario-rot.github.io/"
+baseURL = "https://mariorot.github.io/"
 title = "Mario RO | Personal Page"
 theme = "somrat"
 # post pagination
