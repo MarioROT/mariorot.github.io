@@ -97,8 +97,8 @@ icon = "fab fa-github"
 link = "https://github.com/mariorot"
 
 [[params.social]]
-icon = "fa fa-graduation-cap"
-link = "https://github.com/mariorot"
+icon = "fa-duotone fa-graduation-cap"
+link = "https://scholar.google.com/citations?user=7mw-57UAAAAJ&hl=en&oi=ao"
 
 [[params.social]]
 icon = "fab fa-linkedin"
