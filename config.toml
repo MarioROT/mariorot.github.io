@@ -93,11 +93,11 @@ icon = "fab fa-google"
 link = "mailto:malttz15@gmail.com"
 
 [[params.social]]
-icon = "fab fa-github fa-beat-mode"
+icon = "fab fa-github"
 link = "https://github.com/mariorot"
 
 [[params.social]]
-icon = "fab fa-graduation-cap"
+icon = "fa fa-graduation-cap"
 link = "https://scholar.google.com/citations?user=7mw-57UAAAAJ&hl=en&oi=ao"
 
 [[params.social]]
