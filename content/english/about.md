@@ -1,11 +1,11 @@
 ---
 title : "KNOW MORE <br> ABOUT ME"
-image : "images/backgrounds/Mario.jpg"
+image : "images/backgrounds/Mr.png"
 # button
 button:
   enable : true
   label : "DOWNLOAD MY CV"
-  link : "#"
+  link : "../../static/documents/CV_MRO.pdf"
 
 ########################### Experience ##############################
 experience:
@@ -58,9 +58,9 @@ custom_css: ""
 ---
 
 <div style="text-align: justify">
-I'm Mario Rosas Otero, a dedicated professional with a robust background in Technology, holding an undergraduate degree from the National Autonomous University of Mexico. My passion for coding has driven me towards a career filled with exploration and innovation in fields like Applied Mathematics, Artificial Intelligence, Cryptography, and Quantum Computing. My academic journey has recently expanded to include a Master of Artificial Intelligence, in cutting-edge fields such as Computer Vision, Human Language Technologies (NLP), and Reinforcement Learning.
+I'm Mario Rosas Otero, a dedicated professional with a robust background in Technology, holding an undergraduate degree from the National Autonomous University of Mexico. My passion for coding has driven me towards a career filled with exploration and innovation in fields like Applied Mathematics, Artificial Intelligence and Cryptography. My academic journey has recently expanded to include a Master of Artificial Intelligence, in cutting-edge fields such as Computer Vision, Human Language Technologies (NLP), and Reinforcement Learning.
 <br> 
-Professionally, I've taken on the role of a Data Engineer at a company specializing in monitoring IT infrastructure and web services. In this capacity, my responsibilities span across a wide array of technical tasks, from ETL processes and data extraction using APIs and Webhooks to data processing, cleaning, and storage in both structured and unstructured formats. My work doesn't stop there; I also engage in backend software development, creating tools and plugins for our monitoring platforms, automating system failure notifications, and analyzing data to derive insights, primarily using cloud computing platforms, with a particular emphasis on Google Cloud Platform (GCP), multiple monitoring platforms, and programming in Python and JavaScript to design and implement scalable solutions. My experience also includes using VMware and Docker for virtualization and containerization, respectively.
-<br>
-At the core of my professional goal is the desire to contribute to research and development in both academic and private sectors, leveraging my technical and scientific knowledge for societal benefit. I'm committed to applying my expertise in AI, especially in my areas of specialization, to multidisciplinary projects that address complex challenges with innovative technological solutions. As an executive board member at RIIAA, I continue to foster the AI ecosystem in LATAM, ensuring that my work not only advances my career but also contributes meaningfully to the broader community.
+Professionally, I've taken on the role of a Data Engineer at a company specializing in monitoring IT infrastructure and web services. In this capacity, my responsibilities span across a wide array of technical tasks, from ETL processes and data extraction using APIs and Webhooks to data processing, cleaning, and storage in both structured and unstructured databases. My work doesn't stop there; I also engage in backend software development, creating tools and plugins for our monitoring platforms, automating system failure notifications, and analyzing data to derive insights, primarily using cloud computing platforms, with a particular emphasis on Google Cloud Platform (GCP), multiple monitoring platforms, and programming mainly in Python and JavaScript to implement scalable solutions. My experience also includes using VMware and Docker for virtualization and containerization, respectively.
+<!-- <br> -->
+<!-- At the core of my professional goal is the desire to contribute to research and development in both academic and private sectors, leveraging my technical and scientific knowledge for societal benefit. I'm committed to applying my expertise in AI, especially in my areas of specialization, to multidisciplinary projects that address complex challenges with innovative technological solutions. As an executive board member at RIIAA, I continue to foster the AI ecosystem in LATAM, ensuring that my work not only advances my career but also contributes meaningfully to the broader community. -->
 </div>
