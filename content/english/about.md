@@ -5,7 +5,7 @@ image : "images/backgrounds/Mr.png"
 button:
   enable : true
   label : "DOWNLOAD MY CV"
-  link : "../../static/documents/CV_MRO.pdf"
+  link : "documents/CV_MRO.pdf"
 
 ########################### Experience ##############################
 experience:

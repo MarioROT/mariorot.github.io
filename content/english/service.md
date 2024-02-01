@@ -7,15 +7,15 @@ service_list:
 
 # service item loop
 - name : "JavaScript"
-  image : "../../static/images/icons/JS_Logo.png"
+  image : "images/icons/JS_Logo.png"
 
 # service item loop
 - name : "JAVA"
-  image : "../../static/images/icons/JAVA_Logo.png"
+  image : "images/icons/JAVA_Logo.png"
 
 # service item loop
 - name : "Google Cloud"
-  image : "../../static/images/icons/GCP_Logo.png"
+  image : "images/icons/GCP_Logo.png"
 
 # service item loop
 - name : "LATEX"
