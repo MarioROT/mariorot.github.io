@@ -6,16 +6,16 @@ service_list:
   image : "images/icons/python.png"
 
 # service item loop
-- name : "MATLAB"
-  image : "images/icons/matlab.png"
+- name : "JavaScript"
+  image : "images/icons/JS_Logo.png"
 
 # service item loop
-- name : "C++"
-  image : "images/icons/cmm.png"
+- name : "JAVA"
+  image : "images/icons/JAVA_Logo.png"
 
 # service item loop
-- name : "JULIA"
-  image : "images/icons/julia.png"
+- name : "Google Cloud"
+  image : "images/icons/GCP_Logo.png"
 
 # service item loop
 - name : "LATEX"
