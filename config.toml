@@ -113,8 +113,7 @@ contentDir = "content/english"
 weight = 1
 home = "Home"
 # copyright
-copyright = "Copyright &copy; 2022 by [MarioRo](https://github.com/Mariuki)"
-
+copyright = "Copyright &copy; 2024 by [MarioROT](https://github.com/mariorot)"
 
 ################# english navigation ##################
 
@@ -168,7 +167,7 @@ contentDir = "content/french"
 weight = 2
 home = "Accueil"
 # copyright
-copyright = "Copyright &copy; 2022 by [MarioRo](https://github.com/Mariuki)"
+copyright = "Copyright &copy; 2024 by [MarioROT](https://github.com/mariorot)"
 
 
 ################# english navigation ##################

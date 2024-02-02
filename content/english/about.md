@@ -13,7 +13,7 @@ experience:
   title : "EXPERIENCE"
   experience_list:
     # experience item loop
-    - name : "Data Engineer, Sopris Technologies"
+    - name : "Data Engineer"
       company : "[SOPRIS TECHNOLOGIES](https://sopristec.com/)"
       duration : "2023-Present"
       content : "ETL Processes, Software Development, and Data analysis."
