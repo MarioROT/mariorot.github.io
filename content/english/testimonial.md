@@ -13,11 +13,6 @@ testimonial_slider:
   designation : "ML engineer, I2CAT"
   content : "I had the opportunity to collaborate with Mario on multiple research projects. Mario's contributions were exceptional, demonstrating strong analytical skills and the ability to grasp complex concepts.Mario's dedication, intelligence, and commitment to excellence make him an outstanding candidate for any professional endeavor."
 
-<!-- # slider item loop -->
-<!-- - name : "Ruben Martinez" -->
-<!--   image : "images/clients/Ruben.jpg" -->
-<!--   designation : "Student" -->
-<!--   content : "Lorem ipsum." -->
 
 # custom style
 custom_class: ""
