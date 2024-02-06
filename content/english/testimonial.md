@@ -10,14 +10,14 @@ testimonial_slider:
 # slider item loop
 - name : "Natalia Sánchez"
   image : "images/clients/NS.jpg"
-  designation : "I had the opportunity to collaborate with Mario on multiple research projects. Mario's contributions were exceptional, demonstrating strong analytical skills and the ability to grasp complex concepts.Mario's dedication, intelligence, and commitment to excellence make him an outstanding candidate for any professional endeavor."
-  content : "No yet available."
+  designation : "ML engineer, I2CAT"
+  content : "I had the opportunity to collaborate with Mario on multiple research projects. Mario's contributions were exceptional, demonstrating strong analytical skills and the ability to grasp complex concepts.Mario's dedication, intelligence, and commitment to excellence make him an outstanding candidate for any professional endeavor."
 
-# slider item loop
-- name : "Ruben Martinez"
-  image : "images/clients/Ruben.jpg"
-  designation : "Student"
-  content : "Lorem ipsum."
+<!-- # slider item loop -->
+<!-- - name : "Ruben Martinez" -->
+<!--   image : "images/clients/Ruben.jpg" -->
+<!--   designation : "Student" -->
+<!--   content : "Lorem ipsum." -->
 
 # custom style
 custom_class: ""
