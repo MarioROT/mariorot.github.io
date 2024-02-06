@@ -1,8 +1,8 @@
 ---
-title: "Implementing Ask Behavior and OpenPose in the Golem Service Robot"
-date: 2020-04-18T12:00:00+06:00
-image: "images/portfolio/P6/Golem2.png"
-categories: ["Artificial Intelligence","Logic Programming"]
+title: "Treasure Hunt Problem"
+date: 2024-01-06T12:00:00+06:00
+image: "images/portfolio/P7/MAS.png"
+categories: ["Artificial Intelligence","Multi-Agent systems"]
 description: "This is meta description."
 draft: false
 project_info:
