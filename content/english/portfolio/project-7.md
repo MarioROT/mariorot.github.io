@@ -2,6 +2,7 @@
 title: "Treasure Hunt Problem"
 date: 2024-01-06T12:00:00+06:00
 image: "images/portfolio/P7/MAS.png"
+image: "images/portfolio/P7/roadmap.png"
 categories: ["Artificial Intelligence","Multi-Agent systems"]
 description: "This is meta description."
 draft: false
@@ -127,7 +128,9 @@ simple setups.
 
 ## Roadmap
 
-![Roadmap](./Images/P7/roadmap.png)
+<!-- ![Roadmap](./Images/P7/roadmap.png) -->
+
+<img src="../images/P7/LogoMario1.png" alt="Italian Trulli">
 
 
 1.  **Problem Analysis:** Conducted a comprehensive analysis to
