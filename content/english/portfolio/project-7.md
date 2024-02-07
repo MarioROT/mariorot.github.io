@@ -6,15 +6,15 @@ categories: ["Artificial Intelligence","Multi-Agent systems"]
 description: "This is meta description."
 draft: false
 project_info:
-- name: "Research Stay"
-  icon: "fas fa-user"
-  content: "The Golem Group"
+- name: "Class Project"
+  icon: "fas fa-code"
+  content: "Introduction to Multi-agent Systems"
 - name: "Project Link"
   icon: "fas fa-link"
-  content: "http://golem.iimas.unam.mx/home.php?lang=en&sec=home"
+  content: "https://github.com/ipiedrahiv/IMAS-2023"
 - name: "Collaborators"
   icon: "fas fa-users"
-  content: "[Members of the Golem Group](http://golem.iimas.unam.mx/member.php?lang=en&sec=member)"
+  content: "[@msuarf01](https://github.com/msuarf01), [@ipiedrahiv](https://github.com/msuarf01), [@AlamLF](https://github.com/AlamLF), [@larovi99](https://github.com/larovi99)[@mariorot](https://github.com/MarioROT)"
 #- name: "Loop Item"
 #  icon: "fas fa-redo"
 #  content: "This is in a loop"
@@ -127,8 +127,8 @@ simple setups.
 
 ## Roadmap
 
-![Roadmap](Assignment1/images/roadmap.png){#fig:roadmap
-width="\\textwidth"}
+![Roadmap](./Images/P7/roadmap.png)
+
 
 1.  **Problem Analysis:** Conducted a comprehensive analysis to
     thoroughly understand the project requirements and challenges.
@@ -980,4 +980,6 @@ together, and we look forward to applying these skills in future and
 more challenging endeavors.
 #### Project Requirements & Specifications
 
-This work is a research project, more details of the project can be found on the p[roject website](http://golem.iimas.unam.mx/home.php?lang=en&sec=home) and in [this article](https://scholar.google.nl/scholar?oi=bibs&cluster=16368582091687832750&btnI=1&hl=fr). Details on ask behavior can be found in this article presented at CEIAAIT 2019. </div>
+This work is a research project, more details of the project can be found on the p[roject website](http://golem.iimas.unam.mx/home.php?lang=en&sec=home) and in [this article](https://scholar.google.nl/scholar?oi=bibs&cluster=16368582091687832750&btnI=1&hl=fr). Details on ask behavior can be found in this article presented at CEIAAIT 2019. 
+
+</div>
