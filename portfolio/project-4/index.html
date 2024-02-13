@@ -79,6 +79,9 @@
 </nav>
 </section>
 <div style=height:50px></div>
+<style>body{font-family:helvetica neue,Helvetica,Arial,sans-serif;padding:20px}.algorithm{font-family:monospace;border:1px solid #ddd;border-left:3px solid #f36;padding:10px;background-color:#f9f9f9;margin-bottom:20px}.algorithm-header{color:#f36;margin-bottom:10px}.algorithm-line{margin:5px 0}.keyword{font-weight:700}.indent-1{margin-left:20px}.indent-2{margin-left:40px}.indent-3{margin-left:60px}</style>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js></script>
 <section class=section>
 <div class=container>
 <div class=row>
@@ -87,22 +90,6 @@
 <img src=https://mariorot.github.io/images/portfolio/P4/Fuzzy2.png alt=image class="img-fluid w-100 mb-5">
 <div class="about-me-text mb-4">
 <h1>Diffuse watering of plants</h1>
-</div>
-<div class=content><div style=text-align:justify>
-<p>This project contains a proposal for the implementation of a fuzzy control system as an automatic method of regulation and control for the care of an ornamental plant. This system can be easily modified or used for different types of ornamental plants that maintain similar care characteristics. As a reference in this work, a plant endemic to Mexico, popularly known as Nochebuena, was used. This plant is mainly seen and produced for winter, it is used as a seasonal flower.</p>
-<p>For the design of the system, the magnitudes that directly influence the development and preservation of the plant were taken into account, both at the production level and in situations where it is used as ornamentation. This system is capable of obtaining input data on the environmental factors of the plant, such as temperature and humidity, as well as measuring the humidity conditions of the soil around the plant. With this data, it is possible to establish communication between a microcontroller and the measuring sensors. In this project we used a microcontroller with great accessibility: an Arduino one, along with Matlab software that facilitates the development of fuzzy systems for control. The utility provided by the management of fuzzy schemes is wide, allowing the decision making of the output or outputs on which control is required, freeing situations of ambiguity, and providing accuracy to the responses and not limiting them only to discrete values.</p>
-<p>The system as a whole intends to carry out the water supply to the plant in a controlled way according to its needs according to the care data reported in the literature, thus preserving at all times its care, and performing a correct management of the resources used.</p>
-<h4 id=project-goals>Project Goals</h4>
-<p>To build a fuzzy control system for the automatic irrigation of an ornamental plant, using the tools and design scheme seen in the topics of intelligent systems. The system is required to be able to obtain information from the environment that affects positively or negatively the living condition of the plant. Based on the information obtained, take action to counteract a situation with inadequate conditions by means of actuators that provide the plant with elements to be in favorable conditions. Obtain two schemes at software level with different degrees of complexity, a simple system, and another system with greater possibility of action. Physically build with the resources available, one of the schemes designed at software level.</p>
-<ul>
-<li>To carry out a theoretical review about the necessary concepts of fuzzy control.</li>
-<li>To seek the applicability of fuzzy control schemes as resource management and control systems with a high degree of precision, specifically applied to water control for a plant.</li>
-<li>To understand in a theoretical and practical way, by means of a programming language and tools, the operation of the proposed system.</li>
-<li>Complement and develop programming skills in Matlab language and C++ from the Arduino interface as a tool for the creation and execution of the system.</li>
-<li>To verify that the system has a practical operation, as well as to implement the system with easily accessible tools.</li>
-</ul>
-<h4 id=project-requirements--specifications>Project Requirements & Specifications</h4>
-<p>This project evolved formally in a paper presented at a student congress of artificial intelligence held within a UNAM College. The project code is available at the following <a href=https://github.com/NM-Labs/FuzzyPlant>project repository</a>. A detailed description of the project can be foun in the paper written for the congress found <a href=http://virtual.cuautitlan.unam.mx/intar/ceiaait/wp-content/uploads/sites/14/2022/01/Controlador-Difuso-para-un-Sistema-de-Riego-Automa-%CC%81tico.pdf>here</a>. More info about that congress edition can be found <a href=http://virtual.cuautitlan.unam.mx/intar/ceiaait/wp-content/uploads/sites/14/2022/01/Controlador-Difuso-para-un-Sistema-de-Riego-Automa-%CC%81tico.pdf>here</a>. </div></p>
 </div>
 </div>
 </div>
@@ -147,9 +134,72 @@
 </ul>
 </div>
 </div>
+<div class="col-lg-8 mb-4 mb-lg-0">
+<div class="wow fadeInUp" data-wow-duration=1.5s>
+<div class=content><div style=text-align:justify>
+<p>This project contains a proposal for the implementation of a fuzzy control system as an automatic method of regulation and control for the care of an ornamental plant. This system can be easily modified or used for different types of ornamental plants that maintain similar care characteristics. As a reference in this work, a plant endemic to Mexico, popularly known as Nochebuena, was used. This plant is mainly seen and produced for winter, it is used as a seasonal flower.</p>
+<p>For the design of the system, the magnitudes that directly influence the development and preservation of the plant were taken into account, both at the production level and in situations where it is used as ornamentation. This system is capable of obtaining input data on the environmental factors of the plant, such as temperature and humidity, as well as measuring the humidity conditions of the soil around the plant. With this data, it is possible to establish communication between a microcontroller and the measuring sensors. In this project we used a microcontroller with great accessibility: an Arduino one, along with Matlab software that facilitates the development of fuzzy systems for control. The utility provided by the management of fuzzy schemes is wide, allowing the decision making of the output or outputs on which control is required, freeing situations of ambiguity, and providing accuracy to the responses and not limiting them only to discrete values.</p>
+<p>The system as a whole intends to carry out the water supply to the plant in a controlled way according to its needs according to the care data reported in the literature, thus preserving at all times its care, and performing a correct management of the resources used.</p>
+<h4 id=project-goals>Project Goals</h4>
+<p>To build a fuzzy control system for the automatic irrigation of an ornamental plant, using the tools and design scheme seen in the topics of intelligent systems. The system is required to be able to obtain information from the environment that affects positively or negatively the living condition of the plant. Based on the information obtained, take action to counteract a situation with inadequate conditions by means of actuators that provide the plant with elements to be in favorable conditions. Obtain two schemes at software level with different degrees of complexity, a simple system, and another system with greater possibility of action. Physically build with the resources available, one of the schemes designed at software level.</p>
+<ul>
+<li>To carry out a theoretical review about the necessary concepts of fuzzy control.</li>
+<li>To seek the applicability of fuzzy control schemes as resource management and control systems with a high degree of precision, specifically applied to water control for a plant.</li>
+<li>To understand in a theoretical and practical way, by means of a programming language and tools, the operation of the proposed system.</li>
+<li>Complement and develop programming skills in Matlab language and C++ from the Arduino interface as a tool for the creation and execution of the system.</li>
+<li>To verify that the system has a practical operation, as well as to implement the system with easily accessible tools.</li>
+</ul>
+<h4 id=project-requirements--specifications>Project Requirements & Specifications</h4>
+<p>This project evolved formally in a paper presented at a student congress of artificial intelligence held within a UNAM College. The project code is available at the following <a href=https://github.com/NM-Labs/FuzzyPlant>project repository</a>. A detailed description of the project can be foun in the paper written for the congress found <a href=http://virtual.cuautitlan.unam.mx/intar/ceiaait/wp-content/uploads/sites/14/2022/01/Controlador-Difuso-para-un-Sistema-de-Riego-Automa-%CC%81tico.pdf>here</a>. More info about that congress edition can be found <a href=http://virtual.cuautitlan.unam.mx/intar/ceiaait/wp-content/uploads/sites/14/2022/01/Controlador-Difuso-para-un-Sistema-de-Riego-Automa-%CC%81tico.pdf>here</a>. </div></p>
+</div>
+</div>
+</div>
+<div class="col-lg-4 d-none d-xl-none" id=scrollAppear>
+<div class="bg-white sticky-top wow fadeInUp" data-wow-duration=1.5s style=top:80px>
+<ul class=list-unstyled>
+<li class="media mb-4">
+<i class="mt-1 fas fa-calendar h2"></i>
+<div class=ml-3>
+<h4>Date</h4>
+<div class=content>10 Nov, 2021</div>
+</div>
+</li>
+<li class="media mb-4">
+<i class="mt-1 fas fa-folder h2"></i>
+<div class=ml-3>
+<h4>Categories</h4>
+<div class=content> Fuzzy Logic</div>
+</div>
+</li>
+<li class="media mb-4">
+<i class="mt-1 fas fa-user h2"></i>
+<div class=ml-3>
+<h4>Paper</h4>
+<div class=content>CEIAAIT</div>
+</div>
+</li>
+<li class="media mb-4">
+<i class="mt-1 fas fa-link h2"></i>
+<div class=ml-3>
+<h4>Project Link</h4>
+<div class=content><a href=https://github.com/NM-Labs/FuzzyPlant>https://github.com/NM-Labs/FuzzyPlant</a></div>
+</div>
+</li>
+<li class="media mb-4">
+<i class="mt-1 fas fa-users h2"></i>
+<div class=ml-3>
+<h4>Collaborators</h4>
+<div class=content><a href=https://github.com/Natalia-SP>Natalia Sánchez</a></div>
+</div>
+</li>
+</ul>
+</div>
+</div>
 </div>
 </div>
 </section>
+<script src=https://code.jquery.com/jquery-3.5.1.slim.min.js></script>
+<script>$(document).ready(function(){$(window).scroll(function(){var a=$(window).scrollTop();a>775?$('#scrollAppear').addClass('d-lg-block').addClass('d-xl-block'):$('#scrollAppear').addClass('d-none').removeClass('d-lg-block').removeClass('d-xl-block')})})</script>
 <footer class="footer-bg fadeInUp wow" data-wow-duration=1.5s>
 <div class=container>
 <div class=row>

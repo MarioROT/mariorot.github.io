@@ -18,7 +18,7 @@
 <link rel=stylesheet href=https://mariorot.github.io/css/custom.min.css media=screen>
 <link rel="shortcut icon" href=https://mariorot.github.io/images/LogoMarioAzul.png type=image/x-icon>
 <link rel=icon href=https://mariorot.github.io/images/LogoMarioAzul.png type=image/x-icon>
-<meta property="og:image" content="https://mariorot.github.io/images/portfolio/P7/roadmap.png">
+<meta property="og:image" content="https://mariorot.github.io/images/portfolio/P7/MAS.png">
 <meta property="og:title" content="Treasure Hunt Problem">
 <meta property="og:description" content="This is meta description.">
 <meta property="og:type" content="article">
@@ -79,15 +79,63 @@
 </nav>
 </section>
 <div style=height:50px></div>
+<style>body{font-family:helvetica neue,Helvetica,Arial,sans-serif;padding:20px}.algorithm{font-family:monospace;border:1px solid #ddd;border-left:3px solid #f36;padding:10px;background-color:#f9f9f9;margin-bottom:20px}.algorithm-header{color:#f36;margin-bottom:10px}.algorithm-line{margin:5px 0}.keyword{font-weight:700}.indent-1{margin-left:20px}.indent-2{margin-left:40px}.indent-3{margin-left:60px}</style>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js></script>
 <section class=section>
 <div class=container>
 <div class=row>
 <div class="col-lg-8 mb-4 mb-lg-0">
 <div class="wow fadeInUp" data-wow-duration=1.5s>
-<img src=https://mariorot.github.io/images/portfolio/P7/roadmap.png alt=image class="img-fluid w-100 mb-5">
+<img src=https://mariorot.github.io/images/portfolio/P7/MAS.png alt=image class="img-fluid w-100 mb-5">
 <div class="about-me-text mb-4">
 <h1>Treasure Hunt Problem</h1>
 </div>
+</div>
+</div>
+<div class=col-lg-4>
+<div class="bg-white sticky-top wow fadeInUp" data-wow-duration=1.5s style=top:80px>
+<ul class=list-unstyled>
+<li class="media mb-4">
+<i class="mt-1 fas fa-calendar h2"></i>
+<div class=ml-3>
+<h4>Date</h4>
+<div class=content>06 Jan, 2024</div>
+</div>
+</li>
+<li class="media mb-4">
+<i class="mt-1 fas fa-folder h2"></i>
+<div class=ml-3>
+<h4>Categories</h4>
+<div class=content> Artificial Intelligence, Multi-Agent Systems</div>
+</div>
+</li>
+<li class="media mb-4">
+<i class="mt-1 fas fa-code h2"></i>
+<div class=ml-3>
+<h4>Class Project</h4>
+<div class=content>Introduction to Multi-agent Systems</div>
+</div>
+</li>
+<li class="media mb-4">
+<i class="mt-1 fas fa-link h2"></i>
+<div class=ml-3>
+<h4>Project Link</h4>
+<div class=content><a href=https://github.com/ipiedrahiv/IMAS-2023>https://github.com/ipiedrahiv/IMAS-2023</a></div>
+</div>
+</li>
+<li class="media mb-4">
+<i class="mt-1 fas fa-users h2"></i>
+<div class=ml-3>
+<h4>Collaborators</h4>
+<div class=content><a href=https://github.com/msuarf01>@msuarf01</a>, <a href=https://github.com/msuarf01>@ipiedrahiv</a>, <a href=https://github.com/AlamLF>@AlamLF</a>, <a href=https://github.com/larovi99>@larovi99</a><a href=https://github.com/MarioROT>@mariorot</a></div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-lg-8 mb-4 mb-lg-0">
+<div class="wow fadeInUp" data-wow-duration=1.5s>
 <div class=content><div style=text-align:justify>
 <h1 id=introduction>Introduction</h1>
 <p>Multi-Agent Systems (MAS) represent a significant domain in contemporary
@@ -175,7 +223,7 @@ evaluation conditions for MAS algorithms. Focusing on decentralization
 in real-world scenarios, Dedale addresses multi-agent problems beyond
 simple setups.</p>
 <h2 id=roadmap>Roadmap</h2>
-<img src=../images/P7/LogoMario1.png alt="Italian Trulli">
+<img src=/images/portfolio/P7/roadmap.png alt=Roadmap width=100%>
 <ol>
 <li>
 <p><strong>Problem Analysis:</strong> Conducted a comprehensive analysis to
@@ -263,10 +311,8 @@ bottlenecks by providing redundant connectivity.</p>
 amounts for both gold and diamonds in the requirements for the practical
 work. They were scattered semi-randomly across the map. Some were placed
 completely randomly while others were placed in spots considered
-challenging to reach by the team. Figure
-<a href=#fig:map_new>2</a>{reference-type=&ldquo;ref&rdquo; reference=&ldquo;fig:map_new&rdquo;} shows
-the map used for the environment and the location of the treasures.</p>
-<p><img src=Assignment1/images/map_new.png alt="Simplified Treasure Map With Blue Safes forTreasure">{#fig:map_new width=&ldquo;50%"}</p>
+challenging to reach by the team. Figure [2] shows the map used for the environment and the location of the treasures.</p>
+<img src=/images/portfolio/P7/map_new.png alt="Simplified Treasure Map With Blue Safes for Treasure" width=50%>
 <h2 id=architecture>Architecture</h2>
 <p>The design of a multi-agent system in charge of simulating a treasure
 hunt problem requires a structured and efficient architecture to manage
@@ -303,8 +349,7 @@ all agents to have complete knowledge of the environment state since
 that would require a deadlock-prone shared structure. The
 introduction of manager agents allows for better bookkeeping without
 causing issues for the lower-level agents. This is the backing of
-the blackboard subsystem that will be described in section
-<a href=#blackboard>4.3.1</a>{reference-type=&ldquo;ref&rdquo; reference=&ldquo;blackboard&rdquo;}.</p>
+the blackboard subsystem that will be described in section.</p>
 </li>
 <li>
 <p><strong>Top-level coordination.</strong> The coordinators play a crucial role as
@@ -342,9 +387,8 @@ Tankers. Additionally, we added coordinator agents. Many different
 classifications can be done between the agents to explain their
 specifications.</p>
 <p>The proposed architecture is shown in the figure
-<a href=#fig:arch>3</a>{reference-type=&ldquo;ref&rdquo; reference=&ldquo;fig:arch&rdquo;}</p>
-<p><img src=Assignment1/images/architecture.png alt=Architecture>{#fig:arch
-width=&ldquo;60%"}</p>
+[3].</p>
+<img src=/images/portfolio/P7/architecture.png alt=Architecture width=100%>
 <h3 id=top-level-agents>Top-Level Agents</h3>
 <p>The Coordinator role is responsible for overseeing the progress
 throughout the entire simulation. It must maintain communication in
@@ -353,8 +397,7 @@ record the progress being made, the resources used, and in general the
 performance of the system in the resolution of the task. Moreover, it is
 responsible for the communication between the bottom-level agents, they
 act as mediators. The attributes for the coordinator agents are shown in
-Table <a href=#tab:coordinator>[tab:coordinator]</a>{reference-type=&ldquo;ref&rdquo;
-reference=&ldquo;tab:coordinator&rdquo;}.</p>
+Table [1].</p>
 <p>Responsibilities:</p>
 <ul>
 <li>
@@ -375,6 +418,31 @@ blackboard as a response.</p>
 <p>Mobilizing the agents to treasure spots when necessary.</p>
 </li>
 </ul>
+<table border=1 style=width:100%;text-align:center>
+<caption style=caption-side:top;text-align:center>Table 1. Coordinator agents properties</caption>
+<thead>
+<tr>
+<th>Agent</th>
+<th>Gold Cap.</th>
+<th>Diamond Cap.</th>
+<th>Detection Radius</th>
+<th>Communication Range</th>
+<th>Lock picking</th>
+<th>Strength</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Coordinator</td>
+<td>-1</td>
+<td>-1</td>
+<td>0</td>
+<td>30</td>
+<td>-1</td>
+<td>-1</td>
+</tr>
+</tbody>
+</table>
 <h3 id=bottom-level-agents>Bottom-Level Agents</h3>
 <p>Bottom-level agents are the ones that perform the core tasks of
 exploring, collecting, and transporting treasures. These agents are
@@ -456,10 +524,105 @@ environment status.</p>
 </ul>
 </li>
 </ul>
-<p>The attributes for bottom-level agents are presented in Table
-<a href=#tab:simple>[tab:simple]</a>{reference-type=&ldquo;ref&rdquo;
-reference=&ldquo;tab:simple&rdquo;}, and were selected in accordance with the
+<p>The attributes for bottom-level agents are presented in Table [2], and were selected in accordance with the
 project description.</p>
+<table border=1 style=width:100%;text-align:center>
+<caption style=caption-side:top;text-align:center>Table 2. Simple agents properties</caption>
+<thead>
+<tr>
+<th>Agent</th>
+<th>Gold Cap.</th>
+<th>Diamond Cap.</th>
+<th>Detection Radius</th>
+<th>Communication Range</th>
+<th>Lock picking</th>
+<th>Strength</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tanker1</td>
+<td>400</td>
+<td>400</td>
+<td>0</td>
+<td>30</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Tanker2</td>
+<td>400</td>
+<td>400</td>
+<td>0</td>
+<td>30</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Collector1</td>
+<td>50</td>
+<td>-1</td>
+<td>0</td>
+<td>30</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Collector2</td>
+<td>50</td>
+<td>-1</td>
+<td>0</td>
+<td>30</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Collector3</td>
+<td>-1</td>
+<td>50</td>
+<td>0</td>
+<td>30</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Collector4</td>
+<td>-1</td>
+<td>50</td>
+<td>0</td>
+<td>30</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Explorer1</td>
+<td>-1</td>
+<td>-1</td>
+<td>0</td>
+<td>30</td>
+<td>2</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Explorer2</td>
+<td>-1</td>
+<td>-1</td>
+<td>0</td>
+<td>30</td>
+<td>3</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Explorer3</td>
+<td>-1</td>
+<td>-1</td>
+<td>0</td>
+<td>30</td>
+<td>3</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
 <h1 id=multi-agent-system-coordination-and-communication>Multi-agent system coordination and communication</h1>
 <h2 id=problem-decomposition>Problem decomposition</h2>
 <p>The treasure hunting problem is a challenge where problem division is
@@ -587,15 +750,81 @@ task to such agent, rejecting the others.</p>
 coordinators will create are explained below. Each of the contracts has
 a cost function, which will be used by the coordinator to decide which
 agent/s it will assign the task to:</p>
+<table border=1 style=width:100%;text-align:center>
+<caption style=caption-side:top;text-align:center>Table 3. Simple agents properties</caption>
+<thead>
+<tr>
+<th>Contract</th>
+<th>Task description</th>
+<th>Contractors</th>
+<th>Cost function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Open safe</td>
+<td>Unlocking a treasure safe</td>
+<td>Explorers<br>and/or<br>Collectors</td>
+<td>See Equation 1.</td>
+</tr>
+<tr>
+<td>Collect treasure</td>
+<td>Collecting a treasure</td>
+<td>Collectors<br>and<br>Tankers</td>
+<td>See Equation 2.</td>
+</tr>
+</tbody>
+</table>
 <p>Note that the contractors are explorers and/or collectors for the first
 contract, which means that a combination of agents can be chosen
 regardless of their type. On the other hand, for the second contract,
 collectors and tankers are defined as contractors as one agent of each
 type has to be selected.</p>
-<p>$$C = d + \alpha(lp_a - lp) + \beta(s_a - s)$$</p>
-<p>$$C = d$$</p>
-<p>[]{#tab:values label=&ldquo;tab:values&rdquo;}</p>
-<p>Notes on functions:</p>
+<p>Eq. 1 $$C = d + \alpha(lp_a - lp) + \beta(s_a - s)$$</p>
+<p>Eq. 2 $$C = d$$</p>
+<table border=1 style=width:100%;text-align:center>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>C</strong></td>
+<td>Cost</td>
+</tr>
+<tr>
+<td><strong>d</strong></td>
+<td>Distance from objective node to agent node</td>
+</tr>
+<tr>
+<td><strong>&#945;</strong></td>
+<td>Importance factor of lock-picking difference</td>
+</tr>
+<tr>
+<td><strong>&beta;</strong></td>
+<td>Importance factor of strength difference</td>
+</tr>
+<tr>
+<td><strong>lp<sub>a</sub></strong></td>
+<td>Lock-picking attribute of agent</td>
+</tr>
+<tr>
+<td><strong>lp</strong></td>
+<td>Lock-picking requirement of safe</td>
+</tr>
+<tr>
+<td><strong>s<sub>a</sub></strong></td>
+<td>Strength attribute of agent</td>
+</tr>
+<tr>
+<td><strong>s</strong></td>
+<td>Strength requirement of safe</td>
+</tr>
+</tbody>
+</table>
+Notes on functions:
 <ul>
 <li>
 <p>The cost function depends on the distance between the objective node
@@ -610,8 +839,8 @@ tasks.</p>
 parameters the sum of the parameters for each individual agent, so
 that each parameter would look like the following:</p>
 <p><strong>d:</strong> sum of distances from each agent to the objective node</p>
-<p>$lp_a:$ sum of lock-picking attribute of each agent</p>
-<p>$s_a:$ sum of strength attributes of each agent</p>
+<p>\(lp_a\): sum of lock-picking attribute of each agent</p>
+<p>\(s_a\): sum of strength attributes of each agent</p>
 </li>
 <li>
 <p>Since in this case all of the contractors have the same attributes,
@@ -790,18 +1019,51 @@ traits. Once the exploration phase is complete, the explorer agents
 transition to the pick-lock phase, using their acquired knowledge and
 skills to further optimize the treasure hunt scenario.</p>
 <p>This is the algorithm that follows these agents:</p>
-<p>::: algorithm
-::: algorithmic
-Get the current position of the agent. Observe the surrounding nodes and
-their observations. Mark the current node as closed in the map.</p>
-<p>Add the node to the map. Add the edge between the current node and the
-accessible node. Consider it as the next node to move to.</p>
-<p>Print a success message. Move randomly to another location. Select the
-next move:</p>
-<p>Move to it. Choose one from the open node list, compute the shortest
-path, and move to the first step of the path.
-:::
-:::</p>
+<div class=algorithm>
+<div class=algorithm-header>Explorer Behavior</div>
+<div class=algorithm-body>
+<div class=algorithm-line><span class=keyword>While</span> <span class=keyword>Exploration is not finished</span></div>
+<div class="indent-1 algorithm-body">
+<div class=algorithm-line><span class=keyword>Get</span> the current position of the agent.</div>
+<div class=algorithm-line><span class=keyword>Observe</span> the surrounding nodes and their observations.</div>
+<div class=algorithm-line><span class=keyword>Mark</span> the current node as closed in the map.</div>
+<div class=algorithm-line><span class=keyword>For</span> <span class=keyword>each accessible node in the observation</span></div>
+<div class="indent-1 algorithm-body">
+<div class=algorithm-line><span class=keyword>If</span> <span class=keyword>the node is new</span></div>
+<div class="indent-1 algorithm-body">
+<div class=algorithm-line><span class=keyword>Add</span> the node to the map.</div>
+</div>
+<div class=algorithm-line><span class=keyword>Add</span> the edge between the current node and the accessible node.</div>
+<div class=algorithm-line><span class=keyword>If</span> <span class=keyword>the accessible node is new and not the current node</span></div>
+<div class="indent-1 algorithm-body">
+<div class=algorithm-line><span class=keyword>Consider</span> it as the next node to move to.</div>
+</div>
+</div>
+<div class=algorithm-line><span class=keyword>If</span> <span class=keyword>there are no more open nodes or the exploration is finished</span></div>
+<div class="indent-1 algorithm-body">
+<div class=algorithm-line><span class=keyword>Print</span> a success message.</div>
+<div class=algorithm-line><span class=keyword>Move</span> randomly to another location.</div>
+</div>
+<div class=algorithm-line><span class=keyword>Else</span></div>
+<div class="indent-1 algorithm-body">
+<div class=algorithm-line><span class=keyword>If</span> <span class=keyword>there are open nodes</span></div>
+<div class="indent-1 algorithm-body">
+<div class=algorithm-line><span class=keyword>Select</span> the next move:</div>
+<div class="indent-1 algorithm-body">
+<div class=algorithm-line><span class=keyword>If</span> <span class=keyword>there is a directly accessible open node</span></div>
+<div class="indent-1 algorithm-body">
+<div class=algorithm-line><span class=keyword>Move</span> to it.</div>
+</div>
+<div class=algorithm-line><span class=keyword>Else</span></div>
+<div class="indent-1 algorithm-body">
+<div class=algorithm-line><span class=keyword>Choose</span> one from the open node list, compute the shortest path, and move to the first step of the path.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 <h3 id=collector>Collector</h3>
 <p>The discovery of a treasure triggers a dynamic process in which the
 nearest collector agent quickly travels to the location of the treasure.
@@ -810,28 +1072,60 @@ The collector then assumes a standby position until a tanker agent
 enters the communication range. The transfer of the treasure takes place
 when the collector and the tanker are in the same communication range.</p>
 <p>This is the algorithm that follows these agents:</p>
-<p>::: algorithm
-::: algorithmic
-Get the current position of the agent Observe the surroundings and get a
-list of observations at the current position (<em>lobs</em>) Pick up the
-treasure Try to store everything in the tanker Print a message
-indicating stored treasure in the tanker Send message to manager and
-explorers to update treasure&rsquo;s state Choose a random move from the
-current position that is different from the previous one Move to the
-selected location
-:::
-:::</p>
+<div class=algorithm>
+<div class=algorithm-header>Collector Behaviour</div>
+<div class=algorithm-body>
+<div class="indent-1 algorithm-body">
+<div class=algorithm-line><span class=keyword>Get</span> the current position of the agent</div>
+<div class=algorithm-line><span class=keyword>If</span> <span class=keyword>the current position is valid:</span></div>
+<div class="indent-1 algorithm-body">
+<div class=algorithm-line><span class=keyword>Observe</span> the surroundings and get a list of observations at the current position (<span class=keyword>lobs</span>)</div>
+<div class=algorithm-line><span class=keyword>If</span> <span class=keyword>the current position's LOCKSTATUS observation is open</span></div>
+<div class="indent-1 algorithm-body">
+<div class=algorithm-line><span class=keyword>For</span> <span class=keyword>each observation in lobs</span>:</div>
+<div class="indent-1 algorithm-body">
+<div class=algorithm-line><span class=keyword>If</span> <span class=keyword>the observation is a DIAMOND or GOLD</span>:</div>
+<div class="indent-1 algorithm-body">
+<div class=algorithm-line><span class=keyword>If</span> <span class=keyword>the treasure type matches the agent's treasure type</span>:</div>
+<div class="indent-1 algorithm-body">
+<div class=algorithm-line><span class=keyword>Pick up</span> the treasure</div>
+</div>
+</div>
+</div>
+</div>
+<div class=algorithm-line><span class=keyword>Try to store</span> everything in the tanker</div>
+<div class=algorithm-line><span class=keyword>If</span> <span class=keyword>successful</span>:</div>
+<div class="indent-1 algorithm-body">
+<div class=algorithm-line><span class=keyword>Print</span> a message indicating stored treasure in the tanker</div>
+</div>
+<div class=algorithm-line><span class=keyword>If</span> <span class=keyword>Treasure collected completely</span>:</div>
+<div class="indent-1 algorithm-body">
+<div class=algorithm-line><span class=keyword>Send</span> message to manager and explorers to update treasure's state</div>
+</div>
+<div class=algorithm-line><span class=keyword>If</span> <span class=keyword>Treasure collected completely or nothing grabbed</span>:</div>
+<div class="indent-1 algorithm-body">
+<div class=algorithm-line><span class=keyword>Choose</span> a random move from the current position that is different from the previous one</div>
+<div class=algorithm-line><span class=keyword>Move</span> to the selected location</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 <h3 id=tanker>Tanker</h3>
 <p>This is the algorithm that follows these agents:</p>
-<p>::: algorithm
-::: algorithmic
-Wait for the next tick (every 5 seconds). Obtain next message from the
-message queue Check the message content (Protocol must be
-"MoveTanker") Ask to an explorer or manager for the path to the node
-contained in the message Move towards the node following the path
-obtained.
-:::
-:::</p>
+<div class=algorithm>
+<div class=algorithm-header>Tanker Behaviour</div>
+<div class=algorithm-body>
+<div class=algorithm-line><span class=keyword>While</span> <span class=keyword>RandomTankerBehaviour is active</span></div>
+<div class="indent-1 algorithm-body">
+<div class=algorithm-line><span class=keyword>Wait</span> for the next tick (every 5 seconds).</div>
+<div class=algorithm-line><span class=keyword>Obtain</span> next message from the message queue</div>
+<div class=algorithm-line><span class=keyword>Check</span> the message content (Protocol must be "MoveTanker")</div>
+<div class=algorithm-line><span class=keyword>Ask</span> to an explorer or manager for the path to the node contained in the message</div>
+<div class=algorithm-line><span class=keyword>Move</span> towards the node following the path obtained.</div>
+</div>
+</div>
+</div>
 <h3 id=coordinator>Coordinator</h3>
 <p>The coordinator has two main responsibilities: running the contractNet
 to manage tasks, and sending messages to the agents.</p>
@@ -842,40 +1136,72 @@ over again. He issues instructions to send a tanker to the collector&rsquo;s
 current location. At the same time, the collector remains stationary and
 waits for the tanker to arrive.</p>
 <p>These are the algorithm that follows these agents:</p>
-<p>::: algorithm
-::: algorithmic
-Wait for the next tick (every 10 seconds). If the map representation is
-not initialized, retrieve the instance. Get the list of unlocked
-treasures from the map. Create a Contract Net Protocol (CFP) message to
-send to potential varying responders (agents c1, c2 or c3, c4 depeneding
-on the treasure type). Set the protocol of the message as
-FIPA_CONTRACT_NET. Set the reply-by date for the message to 7.5 seconds
-from the current time. Set the id of the node as content of the message
-as the string representation of the treasure. Add a ContractNetInitiator
-behavior to the agent to handle the contract net interaction.
-:::
-:::</p>
-<p>::: algorithm
-::: algorithmic
-Wait for the next tick (every 300 milliseconds). If the map
-representation is not initialized, retrieve the instance. Receive an
-ACLMessage from the agent&rsquo;s message queue. Update the state of the
-specified treasure to unlocked in the map and reply with a confirmation.
-Extract treasure IDs from the message content. Get the shortest path
-from the first treasure to the second. Create a reply message with the
-path content. Add the sender of the original message as the receiver.
-Set the conversation ID and protocol of the reply message. Send the
-reply message with the shortest path to the sender. Send a null message.
-Send message to tankers with the node to the collector that needs help
-:::
-:::</p>
+<div class=algorithm>
+<div class=algorithm-header>Manager Behaviour</div>
+<div class=algorithm-body>
+<div class=algorithm-line><span class=keyword>While</span> <span class=keyword>ManagerBehaviour is active</span></div>
+<div class="indent-1 algorithm-body">
+<div class=algorithm-line><span class=keyword>Wait</span> for the next tick (every 10 seconds).</div>
+<div class=algorithm-line><span class=keyword>If</span> <span class=keyword>the map representation is not initialized, retrieve the instance.</span></div>
+<div class=algorithm-line><span class=keyword>Get</span> the list of unlocked treasures from the map.</div>
+<div class=algorithm-line><span class=keyword>For</span> <span class=keyword>each unlocked treasure</span></div>
+<div class="indent-1 algorithm-body">
+<div class=algorithm-line><span class=keyword>If</span> <span class=keyword>the list of unlocked treasures is not empty</span></div>
+<div class="indent-1 algorithm-body">
+<div class=algorithm-line><span class=keyword>Create</span> a Contract Net Protocol (CFP) message to send to potential varying responders (agents c1, c2 or c3, c4 depending on the treasure type).</div>
+<div class=algorithm-line><span class=keyword>Set</span> the protocol of the message as FIPA_CONTRACT_NET.</div>
+<div class=algorithm-line><span class=keyword>Set</span> the reply-by date for the message to 7.5 seconds from the current time.</div>
+<div class=algorithm-line><span class=keyword>Set</span> the id of the node as content of the message as the string representation of the treasure.</div>
+<div class=algorithm-line><span class=keyword>Add</span> a ContractNetInitiator behavior to the agent to handle the contract net interaction.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=algorithm>
+<div class=algorithm-header>Message Managing Behaviour</div>
+<div class=algorithm-body>
+<div class=algorithm-line><span class=keyword>While</span> <span class=keyword>MessageManagingBehaviour is active</span></div>
+<div class="indent-1 algorithm-body">
+<div class=algorithm-line><span class=keyword>Wait</span> for the next tick (every 300 milliseconds).</div>
+<div class=algorithm-line><span class=keyword>If</span> <span class=keyword>the map representation is not initialized, retrieve the instance.</span></div>
+<div class=algorithm-line><span class=keyword>Receive</span> an ACLMessage from the agent's message queue.</div>
+<div class=algorithm-line><span class=keyword>If</span> <span class=keyword>the received message is not null</span></div>
+<div class="indent-1 algorithm-body">
+<div class=algorithm-line><span class=keyword>If</span> <span class=keyword>the message protocol is "UpdateTreasure"</span></div>
+<div class="indent-1 algorithm-body">
+<div class=algorithm-line><span class=keyword>Update</span> the state of the specified treasure to unlocked in the map and reply with a confirmation.</div>
+</div>
+<div class=algorithm-line><span class=keyword>ElsIf</span> <span class=keyword>the message protocol is "GetPathToTreasure"</span></div>
+<div class="indent-1 algorithm-body">
+<div class=algorithm-line><span class=keyword>Extract</span> treasure IDs from the message content.</div>
+<div class=algorithm-line><span class=keyword>If</span> <span class=keyword>both treasure IDs are valid</span></div>
+<div class="indent-1 algorithm-body">
+<div class=algorithm-line><span class=keyword>Get</span> the shortest path from the first treasure to the second.</div>
+<div class=algorithm-line><span class=keyword>Create</span> a reply message with the path content.</div>
+<div class=algorithm-line><span class=keyword>Add</span> the sender of the original message as the receiver.</div>
+<div class=algorithm-line><span class=keyword>Set</span> the conversation ID and protocol of the reply message.</div>
+<div class=algorithm-line><span class=keyword>Send</span> the reply message with the shortest path to the sender.</div>
+</div>
+<div class=algorithm-line><span class=keyword>Else</span></div>
+<div class="indent-1 algorithm-body">
+<div class=algorithm-line><span class=keyword>Send</span> a null message.</div>
+</div>
+</div>
+<div class=algorithm-line><span class=keyword>ElsIf</span> <span class=keyword>the message protocol is "HelpCollector"</span></div>
+<div class="indent-1 algorithm-body">
+<div class=algorithm-line><span class=keyword>Send</span> message to tankers with the node to the collector that needs help</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 <h2 id=map-representation>Map Representation</h2>
 <p>Functions related to map representation, focusing on the definition of a
 graph, have been implemented in the project template. Building on this
 foundation, additional functionality is integrated to improve the
 organization of the treasure within the system.</p>
-<p>::: tcolorbox
-<strong>Implemented methods:</strong></p>
+<p><strong>Implemented methods:</strong></p>
 <ul>
 <li>
 <p><code>addTreasure(id, amount, type)</code>: Adds a new treasure with a given
@@ -896,18 +1222,15 @@ specified ID to "COLLECTED."</p>
 <p><code>getUnlockedTreasures()</code>: Returns a list of unlocked treasures.</p>
 </li>
 <li>
-<p><code>getTreasures()</code>: Returns a list of all treasures.
-:::</p>
+<p><code>getTreasures()</code>: Returns a list of all treasures.</p>
 </li>
 </ul>
 <h2 id=overview>Overview</h2>
-<p>The global flowchart <a href=#fig:flux>4</a>{reference-type=&ldquo;ref&rdquo;
-reference=&ldquo;fig:flux&rdquo;} provides a panoramic view of system dynamics and
+<p>The global flowchart shown in Figure [4] provides a panoramic view of system dynamics and
 encapsulates the overall process. Agents are represented by different
 colors: blue for explorers, green for collectors, red for tankers, and
 gray for the coordinator.</p>
-<p><img src=Assignment1/images/flow2.png alt=Flowchart>{#fig:flux
-width="\textwidth&rdquo;}</p>
+<img src=/images/portfolio/P7/flow2.png alt=Flowchart width=100%>
 <h1 id=results>Results</h1>
 <p>As the agents explore and gather treasure in the environment, the
 following metrics were kept:</p>
@@ -942,17 +1265,8 @@ randomly, which explains the even divide of the steps. This behaviour is
 good since it foments exploration, however, if there were any physical
 constraints to consider, such as gas cost or time of travel, it might be
 better to use a utility function that punishes unnecessary movements.</p>
-<figure id=Maps>
-<figure id=Init_map>
-<img src=images/initial_map.png>
-<figcaption>Initial Map</figcaption>
-</figure>
-<figure id=fin_map>
-<img src=images/final_map.png>
-<figcaption>Final Map</figcaption>
-</figure>
-<figcaption>Initial and final maps comparison</figcaption>
-</figure>
+<img src=/images/portfolio/P7/initial_map.png alt="Initial Map" width=100%>
+<img src=/images/portfolio/P7/final_map.png alt="Final Map" width=100%>
 <h1 id=future-work>Future Work</h1>
 <p>Our work in the current project of multi-agent systems within the JADE
 environment has opened up exciting options for further research.
@@ -1011,13 +1325,11 @@ systems. We finish this project with a deeper appreciation for the
 challenges and possibilities presented by intelligent agents working
 together, and we look forward to applying these skills in future and
 more challenging endeavors.</p>
-<h4 id=project-requirements--specifications>Project Requirements & Specifications</h4>
-<p>This work is a research project, more details of the project can be found on the p<a href="http://golem.iimas.unam.mx/home.php?lang=en&sec=home">roject website</a> and in <a href="https://scholar.google.nl/scholar?oi=bibs&cluster=16368582091687832750&btnI=1&hl=fr">this article</a>. Details on ask behavior can be found in this article presented at CEIAAIT 2019.</p>
 </div>
 </div>
 </div>
 </div>
-<div class=col-lg-4>
+<div class="col-lg-4 d-none d-xl-none" id=scrollAppear>
 <div class="bg-white sticky-top wow fadeInUp" data-wow-duration=1.5s style=top:80px>
 <ul class=list-unstyled>
 <li class="media mb-4">
@@ -1061,6 +1373,8 @@ more challenging endeavors.</p>
 </div>
 </div>
 </section>
+<script src=https://code.jquery.com/jquery-3.5.1.slim.min.js></script>
+<script>$(document).ready(function(){$(window).scroll(function(){var a=$(window).scrollTop();a>775?$('#scrollAppear').addClass('d-lg-block').addClass('d-xl-block'):$('#scrollAppear').addClass('d-none').removeClass('d-lg-block').removeClass('d-xl-block')})})</script>
 <footer class="footer-bg fadeInUp wow" data-wow-duration=1.5s>
 <div class=container>
 <div class=row>

@@ -79,6 +79,9 @@
 </nav>
 </section>
 <div style=height:50px></div>
+<style>body{font-family:helvetica neue,Helvetica,Arial,sans-serif;padding:20px}.algorithm{font-family:monospace;border:1px solid #ddd;border-left:3px solid #f36;padding:10px;background-color:#f9f9f9;margin-bottom:20px}.algorithm-header{color:#f36;margin-bottom:10px}.algorithm-line{margin:5px 0}.keyword{font-weight:700}.indent-1{margin-left:20px}.indent-2{margin-left:40px}.indent-3{margin-left:60px}</style>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js></script>
 <section class=section>
 <div class=container>
 <div class=row>
@@ -87,38 +90,6 @@
 <img src=https://mariorot.github.io/images/portfolio/P2/FVFP2.png alt=image class="img-fluid w-100 mb-5">
 <div class="about-me-text mb-4">
 <h1>Simulation of Attacks on Fuzzy Vault Fingerprint-based Scheme</h1>
-</div>
-<div class=content><div style=text-align:justify>
-<p>Throughout this social service program, an extensive bibliographic review of the functioning of biometric systems used in conjunction with cryptographic systems to protect information was carried out. Specifically, we focused on the operation of the Fuzzy Vault scheme based on Fingerprint; we studied the original scheme proposal as well as the existing implementations.</p>
-<p>Subsequently, the study was redirected towards the identified attacks to which the scheme may be vulnerable. Diagrams, reports and other didactic resources were constructed from the attacks studied to improve their understanding and study. Within the set of attacks whose diagrams were obtained, a subset was chosen from which a simulation was built by programming them. This was done with the objective of attacking vaults generated with a Fuzzy Fingerprint-based Vault system that was adapted for the simulations of the attacks.</p>
-<p>A data analysis of the results obtained in the experiments carried out with the attack simulations was performed. In addition, we experimented trying to attack with one of the implemented simulations to a proposal of modified fuzzy vaults that emerged within the CIC Cybersecurity Lab team, in order to test the hypothesis that such vaults could not be breached using the methods with which the attack simulations were built.</p>
-<p>Keywords: Biometric cryptosystems, Polynomial Reconstruction, Cryptographic Attacks, Fuzzy Vault, Cross-Matching, Brute Force</p>
-<h4 id=project-goals>Project Goals</h4>
-<p>Analyze the behavior of existing attacks on a cryptographic-biometric system through the generation of interaction diagrams of the entities involved, and build a simulation of an attack on the system, to determine the feasibility of using post-quantum schemes in the mitigation of such attacks.</p>
-<ul>
-<li>Identify the phases that are part of a biometric system.</li>
-<li>Study the operation of the fuzzy fingerprint-based fuzzy vault scheme.</li>
-<li>Identify the existing attacks in a cryptographic-biometric system.</li>
-<li>Generate diagrams that theoretically and visually model the studied attacks.</li>
-<li>Perform a set of simulations of specific attacks on the system using a programming language.</li>
-<li>Obtain statistics of system behavior and effectiveness of the attacks.</li>
-<li>Determine the feasibility of using post-quantum cryptography schemes in biometric systems.</li>
-</ul>
-<h4 id=project-requirements--specifications>Project Requirements & Specifications</h4>
-<p>This project has been 2 in two parts, the first one as a Research stay while being an undergraduate student, the second part was developed under the work done in the social service corresponding to my bachelor degree. The code of the realized implementations can be found in: <a href=https://github.com/Mariuki/CorrelationAttack2FuzzyVault>Correlation Attack</a>, <a href=https://github.com/Mariuki/AutomatedBruteForceAttack_to_FingerprintFuzzyVault>Brute Force Attack</a>, <a href=https://github.com/Mariuki/AutomatedFuzzyVaultFingerprint>Automated Fuzzy Vault Implementation</a></p>
-<p>The activities carried out within the social service in general terms were:</p>
-<ul>
-<li>Literature review of previous similar work and related therms.</li>
-<li>Study of the scheme and review of the implementations found.</li>
-<li>Identification and classification of attacks reported in the literature.</li>
-<li>Elaboration of diagrams modeling the operation of the attacks.</li>
-<li>Preparation of reports reflecting the partial results of the search and analysis.</li>
-<li>Adaptation of an implementation of the studied scheme for experimentation.</li>
-<li>Construction of a simulation of attacks through programming.</li>
-<li>Carrying out of experiments by means of simulation of the attacks.</li>
-<li>Analysis report of results and final conclusions of the project.</li>
-</ul>
-</div>
 </div>
 </div>
 </div>
@@ -163,9 +134,88 @@
 </ul>
 </div>
 </div>
+<div class="col-lg-8 mb-4 mb-lg-0">
+<div class="wow fadeInUp" data-wow-duration=1.5s>
+<div class=content><div style=text-align:justify>
+<p>Throughout this social service program, an extensive bibliographic review of the functioning of biometric systems used in conjunction with cryptographic systems to protect information was carried out. Specifically, we focused on the operation of the Fuzzy Vault scheme based on Fingerprint; we studied the original scheme proposal as well as the existing implementations.</p>
+<p>Subsequently, the study was redirected towards the identified attacks to which the scheme may be vulnerable. Diagrams, reports and other didactic resources were constructed from the attacks studied to improve their understanding and study. Within the set of attacks whose diagrams were obtained, a subset was chosen from which a simulation was built by programming them. This was done with the objective of attacking vaults generated with a Fuzzy Fingerprint-based Vault system that was adapted for the simulations of the attacks.</p>
+<p>A data analysis of the results obtained in the experiments carried out with the attack simulations was performed. In addition, we experimented trying to attack with one of the implemented simulations to a proposal of modified fuzzy vaults that emerged within the CIC Cybersecurity Lab team, in order to test the hypothesis that such vaults could not be breached using the methods with which the attack simulations were built.</p>
+<p>Keywords: Biometric cryptosystems, Polynomial Reconstruction, Cryptographic Attacks, Fuzzy Vault, Cross-Matching, Brute Force</p>
+<h4 id=project-goals>Project Goals</h4>
+<p>Analyze the behavior of existing attacks on a cryptographic-biometric system through the generation of interaction diagrams of the entities involved, and build a simulation of an attack on the system, to determine the feasibility of using post-quantum schemes in the mitigation of such attacks.</p>
+<ul>
+<li>Identify the phases that are part of a biometric system.</li>
+<li>Study the operation of the fuzzy fingerprint-based fuzzy vault scheme.</li>
+<li>Identify the existing attacks in a cryptographic-biometric system.</li>
+<li>Generate diagrams that theoretically and visually model the studied attacks.</li>
+<li>Perform a set of simulations of specific attacks on the system using a programming language.</li>
+<li>Obtain statistics of system behavior and effectiveness of the attacks.</li>
+<li>Determine the feasibility of using post-quantum cryptography schemes in biometric systems.</li>
+</ul>
+<h4 id=project-requirements--specifications>Project Requirements & Specifications</h4>
+<p>This project has been 2 in two parts, the first one as a Research stay while being an undergraduate student, the second part was developed under the work done in the social service corresponding to my bachelor degree. The code of the realized implementations can be found in: <a href=https://github.com/Mariuki/CorrelationAttack2FuzzyVault>Correlation Attack</a>, <a href=https://github.com/Mariuki/AutomatedBruteForceAttack_to_FingerprintFuzzyVault>Brute Force Attack</a>, <a href=https://github.com/Mariuki/AutomatedFuzzyVaultFingerprint>Automated Fuzzy Vault Implementation</a></p>
+<p>The activities carried out within the social service in general terms were:</p>
+<ul>
+<li>Literature review of previous similar work and related therms.</li>
+<li>Study of the scheme and review of the implementations found.</li>
+<li>Identification and classification of attacks reported in the literature.</li>
+<li>Elaboration of diagrams modeling the operation of the attacks.</li>
+<li>Preparation of reports reflecting the partial results of the search and analysis.</li>
+<li>Adaptation of an implementation of the studied scheme for experimentation.</li>
+<li>Construction of a simulation of attacks through programming.</li>
+<li>Carrying out of experiments by means of simulation of the attacks.</li>
+<li>Analysis report of results and final conclusions of the project.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 d-none d-xl-none" id=scrollAppear>
+<div class="bg-white sticky-top wow fadeInUp" data-wow-duration=1.5s style=top:80px>
+<ul class=list-unstyled>
+<li class="media mb-4">
+<i class="mt-1 fas fa-calendar h2"></i>
+<div class=ml-3>
+<h4>Date</h4>
+<div class=content>07 Dec, 2021</div>
+</div>
+</li>
+<li class="media mb-4">
+<i class="mt-1 fas fa-folder h2"></i>
+<div class=ml-3>
+<h4>Categories</h4>
+<div class=content> Crytography, Research</div>
+</div>
+</li>
+<li class="media mb-4">
+<i class="mt-1 fas fa-user h2"></i>
+<div class=ml-3>
+<h4>Research Project</h4>
+<div class=content>(Computer Research Center) CIC, IPN</div>
+</div>
+</li>
+<li class="media mb-4">
+<i class="mt-1 fas fa-link h2"></i>
+<div class=ml-3>
+<h4>Project Link</h4>
+<div class=content><a href=https://github.com/Mariuki/CorrelationAttack2FuzzyVault>Correlation Attack</a>, <a href=https://github.com/Mariuki/AutomatedBruteForceAttack_to_FingerprintFuzzyVault>Brute Force Attack</a>, <a href=https://github.com/Mariuki/AutomatedFuzzyVaultFingerprint>Automated Fuzzy Vault Implementation</a></div>
+</div>
+</li>
+<li class="media mb-4">
+<i class="mt-1 fas fa-users h2"></i>
+<div class=ml-3>
+<h4>Tutor</h4>
+<div class=content><a href=https://www.cic.ipn.mx/index.php/gina-gallegos-garcia>Gina Gallegos García</a></div>
+</div>
+</li>
+</ul>
+</div>
+</div>
 </div>
 </div>
 </section>
+<script src=https://code.jquery.com/jquery-3.5.1.slim.min.js></script>
+<script>$(document).ready(function(){$(window).scroll(function(){var a=$(window).scrollTop();a>775?$('#scrollAppear').addClass('d-lg-block').addClass('d-xl-block'):$('#scrollAppear').addClass('d-none').removeClass('d-lg-block').removeClass('d-xl-block')})})</script>
 <footer class="footer-bg fadeInUp wow" data-wow-duration=1.5s>
 <div class=container>
 <div class=row>
