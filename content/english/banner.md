@@ -6,9 +6,8 @@ last_name : "ROSAS OTERO"
 bg_image : "images/slider/Keyboard2.jpg"
 # animated text loop
 occupations:
-- "BSc Technology, UNAM, Mexico"
-- "MSC Artificial Intelligence, UPC | UB | URV, Spain"
-- "Data Engineer, Sopris Technologies"
+- "PhD Computer Architecture, UPC, Spain"
+- "First Stage Researcher, BSC, Spain"
 
 # slider background image loop
 slider_images:
