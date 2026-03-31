@@ -3,7 +3,7 @@ title : "Do you want to collaborate?"
 bg_image : "images/backgrounds/Shake_hands.jpg"
 button:
   enable : true
-  label : "SAY HELLO!"
+  label : "LET'S TALK"
   link : "#contact"
 
 

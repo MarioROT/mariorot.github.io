@@ -5,22 +5,22 @@ funfacts:
 # funfacts item loop
 - name : "PUBLISHED PAPERS"
   image : "images/icons/project.png"
-  count : "4"
+  count : "2"
 
 # funfacts item loop
-- name : "COLLABORATIONS"
+- name : "RESEARCH & INDUSTRY ROLES"
   image : "images/icons/happy.png"
-  count : "10"
+  count : "5"
 
 # funfacts item loop
 - name : "FINISHED PROJECTS"
   image : "images/icons/works.png"
-  count : "15"
+  count : "20"
 
 # funfacts item loop
 - name : "CUPS OF COFFEE"
   image : "images/icons/coffee.png"
-  count : "150"
+  count : "500"
 
 
 # custom style

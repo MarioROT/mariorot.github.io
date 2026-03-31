@@ -6,7 +6,7 @@ last_name : "ROSAS OTERO"
 bg_image : "images/slider/Keyboard2.jpg"
 # animated text loop
 occupations:
-- "PhD Computer Architecture, UPC, Spain"
+- "PhD Student in Computer Architecture, UPC, Spain"
 - "First Stage Researcher, BSC, Spain"
 
 # slider background image loop

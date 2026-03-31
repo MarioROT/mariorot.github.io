@@ -67,7 +67,7 @@ logo_light = "images/LogoMario1WB.png"
 logo_dark = "images/LogoMario1WhiteWB.png"
 logo_width = "200px"
 # Meta data
-description = "This is meta description"
+description = "Mario Rosas Otero - AI Engineer specialized in ML, Data Engineering, and applied research."
 author = "Mario RO"
 
 # Preloader
@@ -81,16 +81,8 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 #link = "https://www.facebook.com/somratpro"
 
 [[params.social]]
-icon = "fab fa-twitter"
-link = "https://twitter.com/Mariuki1"
-
-#[[params.social]]
-#icon = "fab fa-instagram"
-#link = "https://www.instagram.com/somratpro"
-
-[[params.social]]
 icon = "fab fa-google"
-link = "mailto:malttz15@gmail.com"
+link = "mailto:mario.rosas.otero@gmail.com"
 
 [[params.social]]
 icon = "fab fa-github"
@@ -102,7 +94,7 @@ link = "https://scholar.google.com/citations?user=7mw-57UAAAAJ&hl=en&oi=ao"
 
 [[params.social]]
 icon = "fab fa-linkedin"
-link = "https://www.linkedin.com/in/mario-rosas-otero-443726187/"
+link = "https://www.linkedin.com/in/mariorot/"
 
 
 ################################### English language #####################################
@@ -113,7 +105,7 @@ contentDir = "content/english"
 weight = 1
 home = "Home"
 # copyright
-copyright = "Copyright &copy; 2024 by [MarioROT](https://github.com/mariorot)"
+copyright = "Copyright &copy; 2026 by [MarioROT](https://github.com/mariorot)"
 
 ################# english navigation ##################
 
@@ -167,7 +159,7 @@ contentDir = "content/french"
 weight = 2
 home = "Accueil"
 # copyright
-copyright = "Copyright &copy; 2024 by [MarioROT](https://github.com/mariorot)"
+copyright = "Copyright &copy; 2026 by [MarioROT](https://github.com/mariorot)"
 
 
 ################# english navigation ##################
