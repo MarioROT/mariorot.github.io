@@ -118,7 +118,7 @@ custom_css: ""
 ---
 
 <div style="text-align: justify">
-I'm Mario Rosas Otero, an AI Engineer and First Stage Researcher at Barcelona Supercomputing Center. I am currently pursuing a PhD in Computer Architecture at UPC, focused on AI model optimization for embedded systems.
+I'm Mario Rosas Otero, an PhD Student at Universitat Politécnica de Catalunya and First Stage Researcher at Barcelona Supercomputing Center. I am currently pursuing a PhD in Computer Architecture at UPC, focused on AI model optimization for embedded systems.
 <br>
 My experience combines research and industry across autonomous driving, data engineering, and applied machine learning. At BSC, I have worked on reinforcement learning-based path planning integrated into Apollo and validated in CARLA. In industry roles, I have developed ETL pipelines, monitoring workflows, data visualizations, and ML-based solutions using cloud and on-premise stacks.
 <br>
