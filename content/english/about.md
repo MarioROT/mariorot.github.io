@@ -50,7 +50,7 @@ experience:
     # experience item loop
     - name : "Big Data Engineer"
       company : "[SOPRIS TECHNOLOGIES](https://sopristec.com/)"
-      duration : "Jun 2023 - Feb 2026"
+      duration : "Jun 2023 - Feb 2025"
       content : "Built ETL and monitoring solutions, data visualizations, and notification workflows using Python, Docker, and Google Cloud in fully cloud-based environments."
 
     # experience item loop
